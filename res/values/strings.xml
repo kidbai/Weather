@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Navigation Drawer Example</string>
+
+    <string-array name="planets_array">
+        <item>天气</item>
+        <item>日历</item>
+        <item>退出</item>
+    </string-array>
+    <string-array name="city">
+        <item>大连</item>
+        <item>成都</item>
+        <item>杭州</item>
+        <item>西安</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_city_selected">CitySelectedActivity</string>
+    <string name="title_activity_weather_next_page">Weather_nextPageActivity</string>
+
+</resources>

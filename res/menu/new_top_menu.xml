@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 每一个item都是一个菜单项，
+    id是唯一标识。
+    orderInCategory菜单的排序。
+    showAsAction，把菜单当成一个actionbar来使用。
+    title菜单标题。
+    icon菜单的图片
+     -->
+     <!-- 重点，在androidmainfest.xml文件中，找当前的activity,并给它加一个标签 。
+     android:uiOptions="splitActionBarWhenNarrow" 把menu作为底部菜单显示。否则做为actionbar来使用。
+      -->
+    <item
+        android:id="@+id/menu_add"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:icon="@drawable/menu_add"/>
+     
+
+</menu>

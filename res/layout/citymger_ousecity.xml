@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_citymger_oftenusecity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textSize="30sp"
+        android:gravity="right"
+        android:background="@drawable/ousecity"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
